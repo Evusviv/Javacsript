@@ -1,0 +1,11 @@
+var num1, num2, add, sub, mul, div;
+num1 = parseInt(prompt("Enter first no"));
+num2 = parseInt(prompt("Enter second no"));
+add = num1+num2;
+sub = num1-num2;
+mul = num1*num2;
+div = num1/num2;
+document.write("addition = " +add+"<br>");
+document.write("subtraction = " +sub+"<br>");
+document.write("multiplication = " +mul+"<br>");
+document.write("division = " +div+"<br>");
